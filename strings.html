@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+    strings page for input validation assignment
+    Cavri Johnson
+    08/09/23
+    Cavjohns@uat.edu
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--we need a style sheet to define the styles for our page-->
+    <link href="stringStyle.css" rel="stylesheet" type="text/css">
+    <!--this is the link from html file to js resources-->
+    <script src=code.js></script>
+    <!--title for the website-->
+    <title>Strings page</title>
+</head>
+<!--this is the start of the body-->
+<body>
+    <!--this is the header text with the script class added for a better font and the rainbow class added to please enjoy with span-->
+  <header class="script"><h1>Welcome to my string page,<span class="Rainbow">Please enjoy.</span></h1></header>
+   <center> <img id=logpic src="loginmeme.jpg"></center> <br>
+   <br>
+   <!--this displays the text-->
+   Please login below.<br>
+   <br>
+   <!-- this  displays text with an id linked to javascript-->
+   <div id="loginStatus">Status of login</div><br>
+   <br>
+   <form id="creditSubmit" onsubmit="return false">
+    <!-- this  displays text with a textbox that has class tb for style and an id linked to javascript-->
+First Name: <input type="text" id="fName" class="tb"><br>
+<!-- this  displays text with a textbox that has class tb for style and an id linked to javascript-->
+Last Name: <input type="text" id="lName" class="tb"><br>
+ <!-- this  displays text with a textbox that has class tb for style and an id linked to javascript-->
+Zip code: <input type="text" id="zipCode" class="tb"><br>
+<br>
+<!--this inputs a button with class button for style that starts function checkCreds when pushed -->
+<input type="submit" onclick="checkCreds();" class="button">
+</form>
+<br>
+<br>
+<h1>palindrome checker</h1>
+<br>
+<!-- this  displays text with an id linked to javascript-->
+<div id="palinStatus">Palindrome Status</div>
+<br>
+<!-- this  displays text with an id linked to javascript-->
+<form id="palinSubmit" onsubmit="return false">
+    <!-- this  displays text with a textbox that has class tb for style and an id linked to javascript-->
+Enter Possible Palindrome: <input type="text" id="palinInput" class="tb"><br>
+<br>
+<!--this inputs a button with class button for style that starts function checkPalin when pushed -->
+<input type="submit" onclick="checkPalin();" class="button"> 
+</form>
+<!--this is the end of strings page body-->
+</body>
+<!--this is the end of string page-->
+</html>

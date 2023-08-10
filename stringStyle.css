@@ -1,0 +1,40 @@
+/*this is the style sheet for string*/
+/*here is the body format*/
+body{
+    background-color: gray;
+    color: goldenrod;
+
+}
+/*this class is used to give font and style the header of the strings page */
+.script { 
+    font-family:  fantasy cursive;
+    text-align: center;}
+    /*this class is to be added to strings page buttons to give them stlye*/
+.button{
+    width: 100px;
+    height: 30;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: goldenrod;
+    cursor: pointer;
+}
+/*this class is to be added to strings page text boxes to give them stlye*/
+.tb{
+    width: 100px;
+    height: 30;
+    background-color: lightgray;
+    border-radius: 10px;
+    border-color: goldenrod;
+}
+/*this makes the enjoyment more colorful
+it is a clas that when added makes the color rainbow */
+.Rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    }
+
+    
+    

@@ -1,0 +1,112 @@
+
+
+
+/*This will style the body of my index page
+scince i manually entered the boards page style this only affects the body text*/
+body{
+  /*this controls the back ground color */
+    background-color: rgb(9, 253, 245) ;
+    /*this controls the body text color */
+    color: rgba(84, 101, 231, 0.822);
+    /*this controls the body text alignment i made it centered to look neat*/
+    text-align: center;
+}
+/*This will style the navigation of my index page
+it just aligns the text of nav to the right */
+nav{
+   text-align: right;
+}
+/*here is the style for the footer of the index page
+the text is centered to look neat */
+footer{
+    text-align: center;
+    
+}
+/*here is the style for the header of the index page
+the text is centered to look neat */
+header{
+    text-align: center;
+}
+/*this makes a blink animation class that can be added to text*/
+.blink {
+
+  animation: blink-animation 1s steps(5, start) infinite;
+
+-webkit-animation: blink-animation 1s steps(5, start) infinite ;
+
+}
+/*this is the animation itself*/
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+/*this is the style for the startButton*/
+.startButton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  /*this is the style for the stop button*/
+  .stopButton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #dd3434;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+/*this is animation spin3D it rotates things along the y-axis */
+@keyframes spin3D {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(360deg) }
+}
+/*this is animation spin3D2 it rotates things along the x-axis */
+@keyframes spin3D2 {
+    from { transform: rotateX(0deg) }
+    to { transform: rotateX(360deg) }
+  }
+/*this allows memeimage style to be changed basicaly giving it an id in css*/
+#memeimage {
+    background: url(memeimage.jpg);
+}
+/*this allows memeimage2 style to be changed basicaly giving it an id in css*/
+#memeimage2 {
+    background: url(memeimage2.jpg);
+}
+
+/*this was the original class for the animation had to make it inactive so i could control it with the buttons
+.spinhov3D {
+  animation-name: spin3D;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  
+  animation-timing-function: ease-in-out;
+}*/
+
+
+/* linear | ease | ease-in | ease-out | ease-in-out */
+
+
+
+
+
+
+
+
+

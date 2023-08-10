@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--This web page was made by:
+     cavri johnson
+    05/31/2023
+cavjohns@uat.edu-->
+<!--This is the start of the html stuff-->
+<html>
+<!--This is the head. Things not on the main body of the page
+go here. Body is for main body stuff-->
+
+<head>
+    <!--we need a style sheet to define the styles for our page-->
+    <link href="style.CSS" rel="stylesheet" type="text/css">
+    <!--this is the link from html file to js resources-->
+    <script src=code.js></script>
+    <!--The title at the top of the window bar-->
+    <title>
+
+        Cavri Johnson's page
+    </title>
+
+</head>
+<!--This is the start of the body-->
+<body>
+    <!--This is the header at the top of the page-->
+    <header>
+        <!--This is h1, big and bold!-->
+        <h1>Welcome to the web page of cavri johnson</h1>
+        <!--This is h3, smaller than h2 or h1-->
+        <h3>I am your host cavri johnson</h3>
+    </header>
+    <!--This is for navigation I put it on the right for easier access since it's closer to the scroll bar-->
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <!--This will take you to the index page-->
+        <a href="index.html"> Home </a><br>
+        <!--This will take you to the boards page-->
+        <a href="board.html"> Boards</a>
+    </nav>
+    <!--Here are my memes i chose two because i wanted to make sure people could relate to at least one. -->
+    <div ><img id="memeimage2" src="memeimage2.jpg"  > <br> <img id="memeimage" src="memeimage.jpg" ></div>
+    <br>
+    <!--this will be the input for start and stop buttons-->
+    <button id="startButton" class="startButton" onclick="startFun();">Start</button>
+    <button id="stopButton" class="stopButton" onclick="stopFun() ;">Stop</button>
+     
+    <div  id="body text">
+
+        
+
+        <!--Here is my paragraph with a little bit about me-->
+        <p>Here is a little bit about me. I am
+            a student at UAT. I like all types of
+            games. I am from the yee haw state of Texas
+            and I am married. </p>
+        <br>
+        <br>
+        <!--begining of craps code-->
+        <h2>Welcome to my <span class="blink">Craps</span> game </h2>
+        <!--link to die and results-->
+        Die 1 result: <div id="die1Res">press "play Craps" to start game</div> <br>
+        Die 2 result: <div id="die2Res">press "play Craps" to start game</div> <br>
+        Sum of the dice: <div id="diceSum">press "play Craps" to start game</div> <br>
+        Game result: <div id="gameRes">press "play Craps" to start game</div> <br>
+        <br>
+        <!--link button to activate function-->
+        <button onclick="playCraps();">Play Craps!</button>
+        <br>
+    </div>
+    <!--Here is my footer-->
+    <footer>
+        <h2>cavri johnson</h2>
+        2625 W. Baseline Road<br>
+        Tempe, AZ 85283-1056<br>
+        602-383-8228<br>
+    </footer>
+    
+    <!--This is the end of my body-->
+</body>
+<!--this is the end of the html-->
+
+</html>
+<!--This is the end of my code-->
